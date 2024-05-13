@@ -1,4 +1,4 @@
-import simpleLightbox from 'simplelightbox';
+import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 
 export const createGalleryMarkup = images => {
@@ -20,7 +20,7 @@ export const createGalleryMarkup = images => {
     .join('');
 };
 
-const galleryStyles = new simpleLightbox('.image-card a', {
+const galleryStyles = new SimpleLightbox('.gallery-page a', {
   captionsData: 'alt',
   captionDelay: 250,
 });
