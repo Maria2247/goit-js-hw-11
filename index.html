@@ -3,20 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pixabay-hw11</title>
+    <title>js-hw11</title>
     
     
     <script type="module" crossorigin src="/goit-js-hw-11/commonHelpers.js"></script>
-    <link rel="modulepreload" crossorigin href="/goit-js-hw-11/assets/vendor-0fc460d7.js">
-    <link rel="stylesheet" href="/goit-js-hw-11/assets/vendor-4b066c51.css">
-    <link rel="stylesheet" href="/goit-js-hw-11/assets/index-4bb04f2a.css">
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-11/assets/vendor-8c59ed88.js">
+    <link rel="stylesheet" href="/goit-js-hw-11/assets/vendor-1cd1f9d9.css">
+    <link rel="stylesheet" href="/goit-js-hw-11/assets/index-e5f8fd1e.css">
   </head>
   <body>
     <form class="search-form">
       <input type="text" name="userInput" placeholder="Search images..." />
       <button type="submit">Search</button>
     </form>
-    <ul class="gallery-page"></ul>
+    <section class="gallery">
+      <div class="loader is-hidden"></div>
+      <ul class="gallery-page"></ul>
+    </section>
 
     
   </body>
