@@ -9,7 +9,6 @@ export const createGalleryMarkup = images => {
         <ul class="img-descr">
           <li class="descr-el">Likes <span>${image.likes}</span></li>
           <li class="descr-el">Views <span>${image.views}</span></li>
-          <li class="descr-el">Views <span>${image.views}</span></li>
           <li class="descr-el">Comments <span>${image.comments}</span></li>
           <li class="descr-el"> Downloads <span>${image.downloads}</span></li>
         </ul>
